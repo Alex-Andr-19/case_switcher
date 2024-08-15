@@ -19,7 +19,7 @@ def transform_structure(
         _async (bool, optional): Is synchronus or asynchronus target function . Defaults to True.
 
     Returns:
-        decorator: _description_
+        decorator: Neccessary decorator
     """
     if _async:
         return transform_structure_async(case_type,
