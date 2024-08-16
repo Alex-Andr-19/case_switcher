@@ -4,7 +4,6 @@ import os
 NAME = "object_case_switcher"
 VERSION = "..1"
 
-
 setup(
     version=VERSION,
     name=NAME,
