@@ -6,7 +6,8 @@ The easiest way to switch case of prop in return of your functions
 pip install object_case_switcher
 ```
 
-## Example
+## Examples
+Simple use
 ```python
 from object_case_switcher import transform_structure
 
