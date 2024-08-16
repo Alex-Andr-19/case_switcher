@@ -10,3 +10,6 @@
 build
 dist
 object_case_switcher.egg-info
+
+package/object_case_switcher
+!package/object_case_switcher/__init__.py
