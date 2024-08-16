@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 NAME = "object_case_switcher"
-VERSION = "0.0.20"
+VERSION = "0.0.21"
 
 
 
@@ -12,7 +12,7 @@ setup(
     name=NAME,
     description="The easiest way to switch case of prop in return of your functions",
 
-    long_description=open(os.path.join(os.path.dirname(__file__), './README.md')).read(),
+    long_description=open(os.path.join(os.path.dirname(__file__), '../README.md')).read(),
     long_description_content_type='text/markdown',
     
     packages=find_packages(),
