@@ -1,5 +1,8 @@
 # CASE SWITCHER
-The easiest way to switch case of prop in return of your functions
+
+This module provides a very **useful** feature that will simplify communication between developers of Python RestAPI and other API libraries and frontend developers.
+
+The provided function makes it possible to develop the main function code on the usual code case, but, called by default, it converts the fields of the object returned by the main function from `snake_case` to `camelCase`
 
 ## Installing
 ```bash
