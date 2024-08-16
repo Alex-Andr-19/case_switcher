@@ -1,4 +1,4 @@
-from transformFunctions import transform
+from .transformFunctions import transform
 from functools import wraps
 
 class TransformStructure:
@@ -39,11 +39,6 @@ class TransformStructure:
                 return transform(await func(*args, **kwargs), self.case_type)
 
         return wrapper_func
-
-    def __get__(self, instance, owner):
-        if instance is None:
-            return self
-        return self.__class__(self.func.__get__(instance, owner))
     
 
 def transform_structure_async(case_type = "snakeToCamel",
