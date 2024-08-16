@@ -5,6 +5,8 @@
 .idea
 .venv
 
+.pypirc
+
 build
 dist
 object_case_switcher.egg-info
