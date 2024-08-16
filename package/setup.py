@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 NAME = "object_case_switcher"
-VERSION = "0.0.23"
+VERSION = "0.0.24"
 
 setup(
     version=VERSION,
@@ -27,4 +27,8 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+
+    project_urls={
+        "GitHub":"https://github.com/Alex-Andr-19/case_switcher",
+    },
 )
