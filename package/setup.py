@@ -20,6 +20,7 @@ setup(
     author_email="aleks-andr-19@yandex.ru",
     url="https://github.com/Alex-Andr-19/case_switcher",
 
+    license="MIT License",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

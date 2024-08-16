@@ -1,7 +1,10 @@
 .DS_Store
-dist
 
 .vscode/*
 !.vscode/extensions.json
 .idea
 .venv
+
+build
+dist
+object_case_switcher.egg-info
