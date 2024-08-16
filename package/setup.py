@@ -2,10 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 NAME = "object_case_switcher"
-VERSION = "0.0.21"
-
-
-
+VERSION = "0.0.22"
 
 setup(
     version=VERSION,
@@ -17,7 +14,7 @@ setup(
     
     packages=find_packages(),
 
-    keywords=["python", "switch", "switcher", "case", "snake", "camel"],
+    keywords=["case", "switcher", "python","snake", "camel", "switch"],
 
     author="Aleksandrychev Andrey",
     author_email="aleks-andr-19@yandex.ru",
