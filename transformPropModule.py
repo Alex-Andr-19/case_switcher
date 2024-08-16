@@ -1,5 +1,5 @@
-from TransformStructure import transform_structure_async
-from transformFunctions import transform_structure_sync
+from .TransformStructure import transform_structure_async
+from .transformFunctions import transform_structure_sync
 
 
 def transform_structure(

@@ -1,4 +1,4 @@
-from transformFunctions import transform
+from .transformFunctions import transform
 from functools import wraps
 
 class TransformStructure:
