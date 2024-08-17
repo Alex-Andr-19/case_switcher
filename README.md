@@ -9,6 +9,17 @@ The provided function makes it possible to develop the main function code on the
 pip install object_case_switcher
 ```
 
+## Parameters
+- `case_type` - Type of transform rule (`snakeToCamel`, `camelToSnake`). Defaults to "snakeToCamel"  
+
+- `transform_for` - Target of executon transform (return, argument). Defaults to "return"
+
+- `arg_index` - Index of argument of target function. Defaults to **0**
+
+- `arg_name` - Name of argument of target function. Defaults to **""**
+
+- `_async` - Is synchronus or asynchronus target function . Defaults to `True`
+
 ## Examples
 ### Simple use
 ```python
