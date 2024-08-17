@@ -9,6 +9,13 @@ The provided function makes it possible to develop the main function code on the
 pip install object_case_switcher
 ```
 
+## Syntax
+```python
+@transform_structure()
+async def load_data(*args, **kwargs):
+    ...
+```
+
 ## Parameters
 - `case_type` - Type of transform rule (`snakeToCamel`, `camelToSnake`). Defaults to "snakeToCamel"  
 

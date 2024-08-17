@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 NAME = "object_case_switcher"
-VERSION = "0.0.29"
+VERSION = "0.0.30"
 
 setup(
     version=VERSION,
