@@ -4,7 +4,6 @@ This module provides a very **useful** feature that will simplify communication 
 
 The provided function (`transform_structure`) makes it possible to develop the main function code on the usual code case, but, called by default, it converts the fields of the object returned by the main function from `snake_case` to `camelCase`.
 
-> [!NOTE]  
 > It is better to install this library in your virtual environment
 
 ## Installing
